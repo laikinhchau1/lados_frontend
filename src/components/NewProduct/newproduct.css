@@ -1,0 +1,10 @@
+.new-product{
+    padding: 40px 0;
+}
+a{
+    text-decoration: none !important;
+    color: #000 !important;
+}
+.new-product-card{
+    margin-top: 24px;
+}

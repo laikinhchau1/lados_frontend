@@ -1,0 +1,35 @@
+.row-footer{
+    text-align: left;
+}
+
+.ega-footer {
+    padding-top: 56px;
+    padding-bottom: 77px;
+}
+
+.footer-title{
+    font-size: 16px;
+    position: relative;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer-title:before {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 1px;
+    background: #0E1C22;
+    opacity: .2;
+    left: 0;
+    bottom: 0;
+}
+.ego-ul{
+    padding: 0;
+}
+.ego-ul li {
+    margin-bottom: 16px;
+}
+.ego-ul li a{
+    font-size: 14px;
+}

@@ -1,0 +1,21 @@
+.product__card_tab{
+    padding: 50px 0;
+}
+.react-tabs__tab{
+    font-size: 24px;
+    border: unset !important;
+    border-bottom: unset !important;
+}
+.react-tabs__tab-list{
+    border-bottom: 0 !important ;
+}
+.is-active{
+    /* background-color: red; */
+    border-bottom: 1px solid #000 !important;
+    font-weight: bold;
+}
+.see-more a{
+    border: 1px solid red;
+    padding: 12px 54px;
+    color: red !important;
+}

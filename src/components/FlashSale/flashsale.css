@@ -1,0 +1,106 @@
+.flash-sale{
+    padding: 32px 0px 48px;
+    margin: 15px auto;
+    display: flex;
+    background-color: #eaeaea;
+    color: #000;
+    justify-content: center;
+}
+
+/* .main-flash-sale{
+    max-width: 1638px;
+    flex: 1;
+} */
+
+@media (min-width: 1800px){
+    .container {
+        max-width: 1638px;
+    }
+}
+.flashsale_title{
+    display: flex;
+}
+.flashsale__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flashsale__title {
+    display: flex;
+    align-items: center;
+}
+
+.flashsale__title h2 {
+    font-size: 2rem;
+}
+.flashsale__countdown-wrapper{
+    display: flex;
+    align-items: center;
+}
+.flashsale__countdown-wrapper span{
+    color: red;
+    font-weight: bold;
+}
+.count-down{
+    padding-left: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.countdown-style{
+    background-color: red;
+    color: #fff !important; 
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.coundown-block {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.coundown-block p {
+    font-size: small;
+}
+.two-dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flashsale__product{
+    display: block;
+}
+.flashsale-col{
+    padding-bottom: 40px;
+}
+.ega-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #f00 !important;
+    border-radius: 100%;
+    margin: 0 20px;
+    display: inline-block;
+    background-color: red;
+}
+
+.ega-ping {
+    border: 1px solid red;
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+    background-color: transparent;
+    opacity: 0.2;
+    border-radius: 100%;
+    -moz-animation: sonar_animation .8s linear infinite;
+    -o-animation: sonar_animation .8s linear infinite;
+    -webkit-animation: sonar_animation .8s linear infinite;
+    animation: sonar_animation .8s linear infinite;
+    display: block;
+    margin: 0;
+}
+@keyframes sonar_animation{
+    from {left: 0px;}
+    to {left: 200px;}
+}

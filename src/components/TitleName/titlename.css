@@ -1,0 +1,29 @@
+.title-new-product{
+    display: flex;
+    justify-content: center;
+}
+.title--dots{
+    font-size: 32px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.title--dots:before {
+    right: calc(100% + 48px);
+}
+.title--dots:after {
+    left: calc(100% + 24px);
+}
+.title--dots:before, .title--dots:after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: black;
+    box-shadow: 12px 0px 0px black, 24px 0px 0px black;
+}
