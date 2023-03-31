@@ -1,9 +1,10 @@
 import React from 'react'
 import ProgressBar from 'react-bootstrap/ProgressBar';
+import { Link } from 'react-router-dom';
 import './cardproduct.css'
 const CardProductFlashSale = (props) => {
   return (
-    <div className='product-card'>
+    <Link className='product-card' to={'detail-product'}>
         <div className='label-sale--new'>
           22%
         </div>
@@ -16,7 +17,7 @@ const CardProductFlashSale = (props) => {
         {
             props.progress && <ProgressBar now={60} variant="danger" />
         }
-    </div>
+    </Link>
   )
 }
 
